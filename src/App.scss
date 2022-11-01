@@ -1,0 +1,341 @@
+
+
+@media screen and (min-width: 240px) and (max-width: 580px) {
+  .app{
+    height: 667px;
+    width: 375px;
+    .invitation-cont{
+      overflow-x: hidden;
+      overflow-y: hidden;
+      .invitation-row{
+        .invitation-col{
+          .app-bg{
+            left: 0;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 100%;
+            z-index: -1;
+            height: 140%;
+          }
+          .row-flower{
+            .col-flower{
+              .app-flower1{
+                height: 450px;
+                display: block;
+                width: 295px;
+                z-index: 9999;
+                float: right;
+                margin-right: -155px;
+                margin-top: -120px;
+                animation: animation1 1s ease-out;
+              }
+              @keyframes animation1 {
+                0% {
+                  opacity: 0;
+                  right: -700px;
+                }
+          
+                100% {
+                  opacity: 1;
+                  right: 0;
+                }
+              }
+            }
+          }
+          .title span{
+            text-align: center;
+            font-size: 40px ;
+            font-weight: 700;
+            transform-origin: bottom;
+            font-family: 'Lora', serif;
+            height: 200px;
+            width: 50px;
+            left: 50;
+            margin-left: 145px;
+            margin-top: -270px;
+            position: absolute;
+          }
+          .c1 {
+            transform: rotate(-48deg);
+            }
+            .c2 {
+            transform: rotate(-39deg);
+            }
+            .c3 {
+            transform: rotate(-31deg);
+            }
+            .c4 {
+            transform: rotate(-17deg);
+            }
+            .c5 {
+            transform: rotate(-8deg);
+            }
+            .c6 {
+            transform: rotate(0deg);
+            }
+            .c7 {
+            transform: rotate(8deg);
+            }
+            .c8 {
+            transform: rotate(15deg);
+            }
+            .c9 {
+            transform: rotate(22deg);
+            }
+            .c10 {
+            transform: rotate(30deg);
+            }
+             .c11 {
+            transform: rotate(40deg);
+            }
+            .c12 {
+              transform: rotate(46deg);
+              }
+
+              .row-profile {
+                .col-img {
+                  margin-top: 120px;
+                  padding-top: 10px;
+             
+                  .picture {
+                    
+                    .bord1{
+                      margin-top: -330px;
+                      border: 5px solid gray;
+                      height: 400px;
+                      width: 250px;
+                      margin-left: auto;
+                      margin-right: auto;
+                      display: block;
+                      margin-bottom: -405px;
+                      border-top-left-radius:50%;
+                      border-top-right-radius:50%;
+                      border-bottom-left-radius:50%;
+                      border-bottom-right-radius:50%;
+                     }
+          
+                    .img-profile {
+                      margin-top: -300px;
+                      width: 250px;
+                      height: 400px;
+                      display: block;
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-top: 6px;
+                      margin-bottom: 6px;
+                      z-index: -1;
+                      border-top-left-radius:50%;
+                      border-top-right-radius:50%;
+                      border-bottom-left-radius:50%;
+                      border-bottom-right-radius:50%;
+                      position: relative;
+                      border: 1px solid #ffffff;
+                    }
+                
+                  }
+                 
+                }
+              }
+
+              .name-title{
+                font-size: 80px;
+                text-align: center;
+                font-family: 'Playfair Display', serif;
+                margin-top: 10px;
+              }
+              .row-tgl{
+                border: 1px solid rgb(240, 175, 53);
+                width: 100%;
+                padding: 5px 0;
+                margin-top: 10px;
+                .col-tgl{
+                  border-right: 2px solid;
+                  .tgl{
+                    padding-top: 5px;
+                    text-align: center;
+                  }
+                }
+                .col-tgl1{
+                  .tgl{
+                    padding-top: 5px;
+                    text-align: center;
+                  }
+                }
+              }
+              .kehadiran{
+                text-align: center;
+                font-size: 13px;
+                margin-top: 10px;
+              }
+
+              .row-flower-last{
+                .col-flower{
+                  .app-flower1{
+                    display: block;
+                    width: 255px;
+                    height: 280px;
+                    z-index: 9999;
+                    float: right;
+                    margin-right: -165px;
+                    margin-top: -160px;
+                  }
+                }
+              }
+
+              .row-flower-icon{
+                .col-flower{
+                  .app-flower1{
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    z-index: 9999;
+                    margin-top: -60px;
+                    margin-left: 20px;
+                    opacity: 100%;
+                  }
+                }
+              }
+
+              .row-flower-icon1{
+                .col-flower{
+                  .app-flower1{
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    z-index: 9999;
+                    float: right;
+                    margin-top: 90px;
+                    margin-bottom: -290px;
+                  }
+                }
+              }
+        }
+   
+        .invitation-col1{
+          .app-bg{
+            left: 0;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 100%;
+            z-index: -1;
+            height: 140%;
+            margin-top: -35px;
+          }
+        
+          .row-flower{
+            .col-flower{
+              .app-flower1{
+                height: 300px;
+                display: block;
+                width: 340px;
+                z-index: 9999;
+                float: left;
+                margin-left: -110px;
+                margin-top: -180px;
+              }
+           
+            }
+          }
+          
+          .greting{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            font-style: italic;
+            color: rgb(192, 126, 3);
+            font-family: 'Lora', serif;
+          }
+          .greting2{
+            text-align: center;
+            font-size: 12px;
+            font-weight: 400;
+            color: rgb(68, 68, 68);
+            font-family: 'Lora', serif;
+          }
+          .greting3{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 50px;
+            font-weight: 700;
+            font-style: italic;
+            color: rgb(192, 126, 3);
+            font-family: 'Lora', serif;
+          }
+          .name{
+            margin-bottom: -8px;;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 700;
+            color: rgb(1, 68, 28);
+            font-family: 'Playfair Display', serif;
+          }
+          .name2{
+            margin-bottom: -8px;;
+            text-align: center;
+            font-size: 50px;
+            margin-top: 30px;
+            font-weight: 700;
+            color: rgb(1, 68, 28);
+            font-family: 'Playfair Display', serif;
+          }
+
+          .greting4{
+            margin-top: 10px;
+            text-align: center;
+            font-size: 9px;
+            font-weight: 400;
+            color: rgb(68, 68, 68);
+            font-family: 'Lora', serif;
+          }
+
+          .row-flower-end{
+            .col-flower{
+              .app-flower1{
+                height: 500px;
+                display: block;
+                width: 450px;
+                z-index: 9999;
+                margin-left: -50px;
+                margin-bottom: -240px;
+              }
+            }
+          }
+
+          .row-flower-icon1{
+            .col-flower{
+              .app-flower1{
+                display: block;
+                width: 50px;
+                height: 50px;
+                z-index: 9999;
+                float: right;
+                margin-top: 10px;
+                margin-right: 20px;
+                margin-bottom: -270px;
+              }
+            }
+          }
+
+          .row-flower-icon{
+            .col-flower{
+              .app-flower1{
+                display: block;
+                width: 50px;
+                height: 50px;
+                z-index: 9999;
+                margin-bottom: -80px;
+                margin-left: 17px;
+                margin-top: 30px;
+                opacity: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
